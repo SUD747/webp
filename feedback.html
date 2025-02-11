@@ -15,7 +15,7 @@
                 <li><a href="frontend.html">Home</a></li>
                 <li><a href="aboutus.html">About Us</a></li>
                 <li><a href="contactus.html">Contact Us</a></li>
-                <li><a href="signin.html">Sign In/Sign Up</a></li>
+                <li><a href="signin.html">Sign-In/Sign-Up</a></li>
             </ul>
         </nav>
     </div>
@@ -27,17 +27,21 @@
         <form>
             <h2>Your Satisfaction:</h2>
             <p>How satisfied are you with our platform?</p>
-            <label><input type="radio" name="satisfaction" value="very-satisfied"> Very Satisfied</label>
-            <label><input type="radio" name="satisfaction" value="satisfied"> Satisfied</label>
-            <label><input type="radio" name="satisfaction" value="neutral"> Neutral</label>
-            <label><input type="radio" name="satisfaction" value="dissatisfied"> Dissatisfied</label>
-            <label><input type="radio" name="satisfaction" value="very-dissatisfied"> Very Dissatisfied</label>
+            <div class="radio-group">
+                <label><input type="radio" name="satisfaction" value="very-satisfied"> Very Satisfied</label>
+                <label><input type="radio" name="satisfaction" value="satisfied"> Satisfied</label>
+                <label><input type="radio" name="satisfaction" value="neutral"> Neutral</label>
+                <label><input type="radio" name="satisfaction" value="dissatisfied"> Dissatisfied</label>
+                <label><input type="radio" name="satisfaction" value="very-dissatisfied"> Very Dissatisfied</label>
+            </div>
 
             <h2>Your Experience:</h2>
             <p>How would you describe your experience with our platform?</p>
-            <label><input type="radio" name="experience" value="easy-to-use"> Easy to Use</label>
-            <label><input type="radio" name="experience" value="user-friendly"> User-Friendly</label>
-            <label><input type="radio" name="experience" value="difficult-to-use"> Difficult to Use</label>
+            <div class="radio-group">
+                <label><input type="radio" name="experience" value="easy-to-use"> Easy to Use</label>
+                <label><input type="radio" name="experience" value="user-friendly"> User-Friendly</label>
+                <label><input type="radio" name="experience" value="difficult-to-use"> Difficult to Use</label>
+            </div>
 
             <h2>Additional Feedback:</h2>
             <textarea rows="4" cols="50" placeholder="Your comments here..."></textarea>
