@@ -69,13 +69,12 @@ nav ul li a:hover {
 
 /* Form Container */
 .form-container {
-    max-width: 400px;
+    max-width: 600px;
     margin: auto;
     background: rgba(255, 255, 255, 0.1);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    text-align: center;
 }
 
 .form-container h2 {
@@ -93,7 +92,7 @@ label {
     font-weight: 600;
 }
 
-input[type="email"], input[type="password"] {
+input[type="text"], input[type="email"], input[type="tel"], input[type="date"], input[type="file"] {
     width: 100%;
     padding: 10px;
     font-size: 16px;
@@ -102,22 +101,18 @@ input[type="email"], input[type="password"] {
     outline: none;
 }
 
-.forgot-password {
-    text-align: right;
-    font-size: 14px;
+input[type="file"] {
+    background: white;
+    color: black;
 }
 
-.forgot-password a {
-    color: #1e90ff;
-    text-decoration: none;
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
-.forgot-password a:hover {
-    text-decoration: underline;
-}
-
-/* Submit Button */
-.submit {
+button {
     padding: 10px;
     font-size: 16px;
     font-weight: 600;
@@ -129,21 +124,21 @@ input[type="email"], input[type="password"] {
     transition: background 0.3s;
 }
 
-.submit:hover {
+button:hover {
     background-color: #0f70d4;
 }
 
-/* Sign-up Text */
-.signup-text {
+/* Sign-in Text */
+.signin {
     text-align: center;
     font-size: 14px;
 }
 
-.signup-text a {
+.signin a {
     color: dodgerblue;
     text-decoration: none;
 }
 
-.signup-text a:hover {
+.signin a:hover {
     text-decoration: underline;
 }

@@ -1,48 +1,63 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
     <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Together and Thrive</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="profilecreationcss.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Create Your Volunteer Profile</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="profilecreation.css">
     </head>
     <body>
-        <div class="Header">
+        <!-- Header -->
+        <div class="header">
+            <h1><a href="mainpage.html" class="logo">Volunteer's Hub</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="frontend.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contacts.html">Contact us</a></li>
+                    <li><a href="signin.html">Sign in/Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Profile Creation Section -->
+        <div class="header-content">
             <h1>Create Your Volunteer Profile Now!</h1>
             <h2>Fill out the information below to join the community and start making a difference.</h2>
         </div>
-        <br><br>
-        <div class="Forms">
+        
+        <div class="form-container">
             <h2>Personal Information</h2>
             <form>
-                <label for="fname"><h3>First Name</h3></label>
+                <label for="fname">First Name</label>
                 <input type="text" id="fname" name="fname" placeholder="First Name..." required>
 
-                <label for="lname"><h3>Last Name</h3></label>
+                <label for="lname">Last Name</label>
                 <input type="text" id="lname" name="lname" placeholder="Last Name..." required>
 
-                <label for="email"><h3>Email</h3></label>
+                <label for="email">Email</label>
                 <input type="email" id="email" name="email" placeholder="Email..." required>
 
-                <label for="phno"><h3>Phone Number</h3></label>
+                <label for="phno">Phone Number</label>
                 <input type="tel" id="phno" name="phno" placeholder="Phone Number..." required>
 
-                <label for="dob"><h3>Date of Birth</h3></label>
+                <label for="dob">Date of Birth</label>
                 <input type="date" id="dob" name="dob" required>
 
-                <label for="sk"><h3>Skills & Certifications</h3></label>
+                <label for="sk">Skills & Certifications</label>
                 <input type="text" id="sk" name="sk" placeholder="Any relevant skills or certifications">
 
-                <label for="profilePic"><h3>Upload Profile Picture</h3></label>
+                <label for="profilePic">Upload Profile Picture</label>
                 <input type="file" id="profilePic" name="profilePic" accept="image/*">
-                <p class="signin">Already have an acount ? <a href="signin.html">Sign-in</a> </p>
-                <label for="terms">
+
+                <p class="signin">Already have an account? <a href="signin.html">Sign in</a></p>
+                
+                <label class="checkbox-container">
                     <input type="checkbox" id="terms" name="terms" required>
-                    I agree to the <a href="terms.html" target="_blank">Terms and Conditions</a>
+                    I agree to the <a href="#   " target="_blank">Terms and Conditions</a>
                 </label>
                 
-                <br><br>
                 <button type="submit">Create Profile</button>
             </form>
         </div>
