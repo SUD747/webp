@@ -18,11 +18,14 @@ body {
     align-items: center;
 }
 
+.header h1 {
+    margin: 0;
+}
+
 .header .logo {
     text-decoration: none;
     color: white;
 }
-
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -55,6 +58,7 @@ nav ul li a:hover {
     max-width: 800px;
     margin: auto;
     background: rgba(255, 255, 255, 0.1);
+    margin-top: 20px;
     border-radius: 10px;
 }
 
@@ -92,11 +96,15 @@ form {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+    transition: background 0.3s, color 0.3s, transform 0.3s, box-shadow 0.3s ease-in-out;
 }
 
 .radio-group input[type="radio"] {
     transform: scale(1.2);
     accent-color: #1e90ff;
+}
+.radio-group label:hover {
+    transform: scale(1.05);
 }
 
 /* Textarea */
@@ -150,5 +158,5 @@ button:hover {
 }
 
 .Footer nav ul li a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }

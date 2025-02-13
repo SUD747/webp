@@ -61,6 +61,7 @@ nav ul li a:hover {
 }
 .cta{
     text-align: center;
+    margin-bottom: 20px;
 }
 .cta-button {
     background: #ff9800;
@@ -175,5 +176,5 @@ nav ul li a:hover {
 }
 
 .Footer nav ul li a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }

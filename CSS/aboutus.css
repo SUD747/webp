@@ -18,6 +18,10 @@ body {
     align-items: center;
 }
 
+.header h1 {
+    margin: 0;
+}
+
 .header .logo {
     text-decoration: none;
     color: white;
@@ -144,5 +148,5 @@ nav ul li a:hover {
 }
 
 .Footer nav ul li a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
